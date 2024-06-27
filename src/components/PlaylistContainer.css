@@ -1,0 +1,104 @@
+.playlist-wrapper-child {
+  width: 374px;
+  height: 275px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    180deg,
+    rgba(27, 55, 130, 0.5),
+    rgba(9, 23, 60, 0.2)
+  );
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.customizable-playlist {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  z-index: 1;
+}
+.playlist-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.artists-can-curate {
+  align-self: stretch;
+  height: 176px;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: justify;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.playlist-wrapper {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    180deg,
+    rgba(27, 55, 130, 0.5),
+    rgba(9, 23, 60, 0.2)
+  );
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-xl) var(--padding-12xs);
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.playlist-step-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(90.3deg, #ed3e31, #eda231);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.playlist-icons-wrapper-child {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 43px;
+  height: 43px;
+  object-fit: contain;
+  z-index: 2;
+}
+.playlist-icons-wrapper {
+  height: 77px;
+  flex: 1;
+  position: relative;
+}
+.playlist-icon-container {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.playlist-container {
+  height: 314px;
+  flex: 1;
+  position: relative;
+  min-width: 243px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

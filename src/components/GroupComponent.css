@@ -1,0 +1,133 @@
+@font-face{
+font-family: "Divine Razier";
+src:url('Divine Razier.otf');
+
+}
+
+
+.dario-dd-k8tnrcwc-unsplash-cop-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.search-bar-background {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 78px;
+  background-color: var(--color-gray-1300);
+  width: 1442px;
+  z-index: 1;
+}
+.frame-child11 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 491.5px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-1500);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.the-ultimate-dj {
+  font-family: 'Divine Razier';
+  margin-top: 50px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: center;
+  
+}
+.frame-child12 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 373px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-1400);
+  border: 2px solid var(--color-gray-1700);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.iconamoonsearch1 {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  z-index: 1;
+}
+.search-venues {
+  position: absolute;
+  top: 32px;
+  left: 84px;
+  font-weight: 300;
+  z-index: 1;
+}
+.rectangle-parent6,
+.rectangle-parent7 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.rectangle-parent7 {
+  top: 159px;
+  left: 117px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-1400);
+  border: 2px solid var(--color-gray-1700);
+  width: 750px;
+  height: 92px;
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--color-slategray);
+  font-family: var(--font-montserrat);
+}
+.rectangle-parent6 {
+  top: 142px;
+  left: 308px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-1500);
+  border: 2px solid var(--color-white);
+  width: 983px;
+  height: 291px;
+  z-index: 3;
+}
+.dario-dd-k8tnrcwc-unsplash-cop-container {
+  width: 1687px;
+  height: 690px;
+  position: absolute;
+  margin: 0 !important;
+  top: 3968px;
+  right: -167px;
+  background-image: url(/public/dariodd-k8tnrcwcunsplash-copy-21@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-divine-razier);
+}
+@media screen and (max-width: 750px) {
+  .the-ultimate-dj {
+    font-size: var(--font-size-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-ultimate-dj {
+    font-size: var(--font-size-14xl);
+  }
+  .search-venues {
+    font-size: var(--font-size-lgi);
+  }
+}

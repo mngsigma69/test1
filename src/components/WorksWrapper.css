@@ -1,0 +1,114 @@
+.djfy-works {
+  color: var(--color-tomato);
+}
+.heres-how-djfy-container {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.works-star-icons,
+.works-star-icons1,
+.works-star-icons2,
+.works-star-icons3,
+.works-star-icons4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-tomato);
+  width: 4px;
+  height: 4px;
+}
+.works-star-icons1,
+.works-star-icons2,
+.works-star-icons3,
+.works-star-icons4 {
+  left: 5px;
+}
+.works-star-icons2,
+.works-star-icons3,
+.works-star-icons4 {
+  left: 10px;
+}
+.works-star-icons3,
+.works-star-icons4 {
+  left: 15px;
+}
+.works-star-icons4 {
+  left: 35px;
+}
+.works-star-icons5,
+.works-star-icons6,
+.works-star-icons7,
+.works-star-icons8,
+.works-star-icons9 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: var(--color-tomato);
+  width: 4px;
+  height: 4px;
+}
+.works-star-icons6,
+.works-star-icons7,
+.works-star-icons8,
+.works-star-icons9 {
+  left: 45px;
+}
+.works-star-icons7,
+.works-star-icons8,
+.works-star-icons9 {
+  left: 20px;
+}
+.works-star-icons8,
+.works-star-icons9 {
+  left: 25px;
+}
+.works-star-icons9 {
+  left: 30px;
+}
+.works-stars {
+  height: 4px;
+  width: 49px;
+  position: relative;
+}
+.works-rating {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+}
+.works-description,
+.works-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.works-description {
+  width: 445px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.works-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) var(--padding-smi) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .heres-how-djfy-container {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heres-how-djfy-container {
+    font-size: var(--font-size-lgi);
+  }
+}

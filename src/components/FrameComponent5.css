@@ -1,0 +1,105 @@
+.steps-container-child {
+  width: 374px;
+  height: 275px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    180deg,
+    rgba(27, 55, 130, 0.5),
+    rgba(9, 23, 60, 0.2)
+  );
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.free-account-creation {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.steps-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.djs-live-musiciansbands {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: justify;
+  z-index: 1;
+}
+.step-icons,
+.steps-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.steps-container {
+  top: 39px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(
+    180deg,
+    rgba(27, 55, 130, 0.5),
+    rgba(9, 23, 60, 0.2)
+  );
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-8xl) var(--padding-79xl);
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.step-icons {
+  top: 0;
+  border-radius: 50%;
+  background: linear-gradient(90.3deg, #ed3e31, #eda231);
+  height: 100%;
+  z-index: 1;
+}
+.steps-icons-wrapper-child {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 43px;
+  height: 43px;
+  object-fit: contain;
+  z-index: 2;
+}
+.steps-icons-wrapper {
+  height: 77px;
+  flex: 1;
+  position: relative;
+}
+.steps-icons-container {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.steps-container-parent {
+  height: 314px;
+  flex: 1;
+  position: relative;
+  min-width: 280px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .free-account-creation {
+    font-size: var(--font-size-mid);
+  }
+}

@@ -1,0 +1,114 @@
+.mask-group-icon24 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.customer-image-container,
+.customer-review-separator,
+.mask-group-icon24 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.customer-review-separator {
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-1200);
+  z-index: 3;
+}
+.customer-image-container {
+  margin: 0 !important;
+}
+.div1 {
+  width: 20px;
+  position: relative;
+  line-height: 29px;
+  font-weight: 900;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 4;
+}
+.review-quotation-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.i-am-very {
+  align-self: stretch;
+  position: relative;
+  line-height: 148.9%;
+  z-index: 4;
+}
+.elessa-berg1 {
+  line-height: 85.9%;
+}
+.elessa-berg {
+  margin: 0;
+}
+.manager-club {
+  margin: 0;
+  font-size: var(--font-size-3xs);
+  line-height: 157.9%;
+  font-weight: 500;
+  font-family: var(--font-montserrat-alternates);
+  color: var(--color-gold);
+}
+.elessa-berg-manager-container {
+  position: relative;
+  z-index: 4;
+}
+.reviewer-info-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-4xl) 0 var(--padding-xl);
+  font-size: var(--font-size-base);
+  font-family: var(--font-comfortaa);
+}
+.customer-review-container,
+.review-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.review-content-container {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-sm);
+}
+.customer-review-container {
+  align-items: flex-end;
+  padding: var(--padding-51xl) var(--padding-xl) var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .div1 {
+    font-size: var(--font-size-32xl);
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div1 {
+    font-size: var(--font-size-19xl);
+    line-height: 33px;
+  }
+}

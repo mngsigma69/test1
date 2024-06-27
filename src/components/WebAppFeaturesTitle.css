@@ -1,0 +1,125 @@
+.span2 {
+  color: var(--color-crimson-200);
+}
+.apps {
+  color: var(--color-tomato);
+}
+.web-apps1 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.usage-video-container {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  background-color: var(--color-tomato);
+  width: 4px;
+  height: 4px;
+}
+.usage-video-container1,
+.usage-video-container2,
+.usage-video-container3 {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  background-color: var(--color-tomato);
+  width: 4px;
+  height: 14px;
+}
+.usage-video-container2,
+.usage-video-container3 {
+  top: 12px;
+  left: 10px;
+  height: 9px;
+}
+.usage-video-container3 {
+  top: 3px;
+  left: 15px;
+  height: 18px;
+}
+.usage-video-container4,
+.usage-video-container5,
+.usage-video-container6 {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  background-color: var(--color-tomato);
+  width: 4px;
+  height: 21px;
+}
+.usage-video-container5,
+.usage-video-container6 {
+  top: 11px;
+  left: 40px;
+  height: 10px;
+}
+.usage-video-container6 {
+  top: 15px;
+  left: 45px;
+  height: 6px;
+}
+.usage-video-container7,
+.usage-video-container8,
+.usage-video-container9 {
+  position: absolute;
+  top: 9px;
+  left: 20px;
+  background-color: var(--color-tomato);
+  width: 4px;
+  height: 12px;
+}
+.usage-video-container8,
+.usage-video-container9 {
+  top: 6px;
+  left: 25px;
+  height: 15px;
+}
+.usage-video-container9 {
+  top: 13px;
+  left: 30px;
+  height: 8px;
+}
+.usage-video {
+  height: 21px;
+  flex: 1;
+  position: relative;
+}
+.web-app-button-container,
+.web-app-features-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.web-app-button-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-47xl) 0 var(--padding-46xl);
+}
+.web-app-features-description {
+  width: 180px;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.web-app-features-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 750px) {
+  .web-apps1 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .web-apps1 {
+    font-size: var(--font-size-lgi);
+  }
+}

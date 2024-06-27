@@ -1,0 +1,231 @@
+.frame-item {
+  height: 58px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-gray-500);
+  display: none;
+  max-width: 100%;
+}
+.whatsapp-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+  z-index: 2;
+}
+.whatsapp-support1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 120px;
+  z-index: 2;
+}
+.social-media,
+.whatsapp-support {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whatsapp-support {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.social-media {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+  min-width: 92px;
+}
+.logo-container-child {
+  width: 10px;
+  height: 8.6px;
+  position: relative;
+  z-index: 2;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.teamdjfyappcom {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 122px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.logo-pair,
+.logo-pair-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.logo-pair {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.logo-pair-wrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  min-width: 92px;
+}
+.vector-icon {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  z-index: 2;
+}
+.vector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 104px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-parent,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frame-wrapper {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.social-media-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs-5);
+}
+.hero-content {
+  width: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.login-register {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 99px;
+}
+.f-icon,
+.login-register,
+.twitter-icon {
+  position: relative;
+  z-index: 2;
+}
+.f-icon {
+  align-self: stretch;
+  width: 8px;
+  max-height: 100%;
+  min-height: 15px;
+}
+.twitter-icon {
+  width: 14px;
+  height: 11px;
+}
+.twitter-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+}
+.instagram-icon,
+.linked-in-icon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  z-index: 2;
+}
+.instagram-icon {
+  height: 15px;
+  width: 15px;
+  border-radius: var(--br-7xs);
+  min-height: 15px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.auth-buttons,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.auth-buttons {
+  width: 330px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-113xl);
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-gray-500);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-177xl) var(--padding-xl)
+    var(--padding-179xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-silver);
+  font-family: var(--font-comfortaa);
+}
+@media screen and (max-width: 1275px) {
+  .rectangle-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent {
+    padding-left: var(--padding-80xl);
+    padding-right: var(--padding-79xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .social-media-parent {
+    flex-wrap: wrap;
+  }
+  .auth-buttons {
+    gap: var(--gap-47xl);
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
