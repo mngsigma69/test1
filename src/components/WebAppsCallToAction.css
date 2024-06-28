@@ -103,6 +103,8 @@
   position: relative;
   font-weight: 600;
   z-index: 1;
+  text-decoration: none;
+  color: white;
 }
 .frame-child6,
 .rectangle-parent4 {

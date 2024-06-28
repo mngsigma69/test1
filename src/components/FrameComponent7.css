@@ -19,12 +19,16 @@
   display: inline-block;
   min-width: 120px;
   z-index: 2;
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+
 }
 .social-media,
 .whatsapp-support {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  
 }
 .whatsapp-support {
   flex-direction: column;
@@ -56,6 +60,10 @@
   min-width: 122px;
   white-space: nowrap;
   z-index: 2;
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+  
+  
 }
 .logo-pair,
 .logo-pair-wrapper {
@@ -95,6 +103,8 @@
   min-width: 104px;
   white-space: nowrap;
   z-index: 2;
+  color: rgb(205, 205, 205);
+  text-decoration: none;
 }
 .frame-parent,
 .frame-wrapper {
@@ -133,6 +143,8 @@
   font-weight: 500;
   display: inline-block;
   min-width: 99px;
+  color: rgb(205, 205, 205);
+  text-decoration: none;
 }
 .f-icon,
 .login-register,

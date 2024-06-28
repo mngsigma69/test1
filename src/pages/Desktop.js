@@ -26,9 +26,9 @@ const Desktop = () => {
           alt=""
           src="/professionaldjwomanentertainingnight-1@2x.png"
         />
-        <div className="about-us-use">About us    Use Cases     Events</div>
+        <div className="about-us-use"><a href="a.html" className="about-us-use1">About us</a>  <a href="a.html" className="about-us-use1">  Use Cases</a>     <a href="a.html" className="about-us-use1"> Events</a></div>
         
-        <div className="web-app-faq">Web App      FAQ       Contact us</div>
+        <div className="web-app-faq"> <a href="a.html" className="about-us-use1">Web App</a>   <a href="a.html" className="about-us-use1">  FAQ</a>         <a href="a.html" className="about-us-use1">Contact us</a></div>
       </div>
       <div className="djfi-logo-main-copy-1" />
       <div className="mail" />
@@ -121,7 +121,18 @@ const Desktop = () => {
           <div className="f-a-q-question-container">
             <div className="f-a-q-question-row">
               <div className="can-i-make">
-                Can I make money promoting DJFY App?
+              <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEleven">
+        Can I make money promoting DJFY App?
+      </a>
+      </div>
+      <div id="collapseEleven" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
               </div>
               <div className="question-dropdown-icon">
                 <img
@@ -141,7 +152,20 @@ const Desktop = () => {
             <div className="what-are-djfys-administrative-parent">
               <div className="what-are-djfys">
                 {" "}
-                What are DJFY's administrative fees and charges?
+                <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwelve">
+      
+What are DJFY's administrative fees and charges?
+      </a>
+      </div>
+      <div id="collapseTwelve" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+
               </div>
               <div className="eparrow-up-wrapper">
                 <img

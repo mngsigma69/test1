@@ -46,9 +46,9 @@ const CasesGrid = ({
               <div className="in-bars-and">{inBarsAndClubsOurAppEmpow}</div>
             </div>
             <div className="rectangle-container">
-              <div className="rectangle-div" />
+              <a href="a.html"><div className="rectangle-div" />
               <div className="register">Register</div>
-            </div>
+            </a></div>
           </div>
         </div>
       </div>

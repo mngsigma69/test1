@@ -8,11 +8,11 @@ const AboutDescription = ({ className = "" }) => {
         <div className="frame-container">
           <div className="rectangle-group">
             <div className="frame-inner" />
-            <img
+            <a href="a.html" className="frame-inner1"><img
               className="iconamoonsearch"
               alt=""
               src="/iconamoonsearch.svg"
-            />
+            /></a>
           </div>
         </div>
         <div className="description-content">

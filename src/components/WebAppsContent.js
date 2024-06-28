@@ -9,7 +9,7 @@ const WebAppsContent = ({
   koramanglaBengaluruIndia,
 }) => {
   return (
-    <div className={`web-apps-content ${className}`}>
+    <div className={`web-apps-content ${className}`}><a href="a.html" className="jun-2311">
       <img className="mask-group-icon3" alt="" src={maskGroup} />
       <div className="rectangle-parent3">
         <div className="frame-child4" />
@@ -22,7 +22,7 @@ const WebAppsContent = ({
             </p>
           </div>
         </div>
-      </div>
+      </div></a>
     </div>
   );
 };

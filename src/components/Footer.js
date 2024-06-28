@@ -23,11 +23,11 @@ const Footer = ({ className = "" }) => {
           <div className="footer-buttons">
             <div className="rectangle-parent9">
               <div className="frame-child14" />
-              <div className="sign-up-as2">Sign Up as User</div>
+             <a href="#" className="sign-up-as31"> <div className="sign-up-as2">Sign Up as User</div></a>
             </div>
             <div className="rectangle-parent10">
               <div className="frame-child15" />
-              <div className="sign-up-as3">Sign Up as DJ</div>
+              <a href="#" className="sign-up-as31"> <div className="sign-up-as3">Sign Up as DJ</div></a>
             </div>
           </div>
         </div>
@@ -36,45 +36,45 @@ const Footer = ({ className = "" }) => {
             <b className="under-the-hood">{`Under the Hood
 
 `}</b>
-            <span className="about">About</span>
+            <a href="#" className="sign-up-as31"><span className="about">About</span></a>
           </p>
-          <p className="use-cases1">Use Cases</p>
-          <p className="events">Events</p>
-          <p className="web-apps2">Web Apps</p>
-          <p className="usage-video1">Usage Video</p>
-          <p className="gallery2">Gallery</p>
-          <p className="clients-testimonials">Clients Testimonials</p>
-          <p className="faq1">{`FAQ `}</p>
-          <p className="contact-us">Contact Us</p>
+          <a href="#" className="sign-up-as31"><p className="use-cases1">Use Cases</p></a> 
+          <a href="#" className="sign-up-as31"> <p className="events">Events</p></a>
+          <a href="#" className="sign-up-as31"><p className="web-apps2">Web Apps</p></a>
+          <a href="#" className="sign-up-as31"> <p className="usage-video1">Usage Video</p></a>
+          <a href="#" className="sign-up-as31"><p className="gallery2">Gallery</p></a>
+          <a href="#" className="sign-up-as31"><p className="clients-testimonials">Clients Testimonials</p></a>
+          <a href="#" className="sign-up-as31"><p className="faq1">{`FAQ `}</p></a>
+          <a href="#" className="sign-up-as31"><p className="contact-us">Contact Us</p></a> 
         </div>
         <div className="contact">
           <div className="contact-info">
             <div className="contact-details">
               <div className="helpdesk-91-1234-container">
                 <p className="helpdesk">
-                  <b className="helpdesk1">HelpDesk</b>
+                <a href="#" className="sign-up-as31"></a>  <b className="helpdesk1">HelpDesk</b>
                 </p>
                 <p className="blank-line2">
                   <b className="blank-line3">&nbsp;</b>
                 </p>
-                <p className="p">{`        +91 1234 5678 90 `}</p>
+                <a href="#" className="sign-up-as31"><p className="p">{`        +91 1234 5678 90 `}</p></a>
               </div>
-              <img
+              <a href="#" className="sign-up-as31"> <img
                 className="whatsapp-1-icon"
                 alt=""
                 src="/whatsapp-1@2x.png"
-              />
+              /></a>
             </div>
             <div className="website-link">
               <div className="website-container">
                 <div className="mask-group-frame">
-                  <img
+                <a href="#" className="sign-up-as31"><img
                     className="mask-group-icon26"
                     alt=""
                     src="/mask-group29@2x.png"
-                  />
+                  /></a> 
                 </div>
-                <div className="teamdjfyappcom1">team@djfyapp.com</div>
+                <a href="#" className="sign-up-as31"> <div className="teamdjfyappcom1">team@djfyapp.com</div></a>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ const Footer = ({ className = "" }) => {
                       </div>
                       <div className="name-input-box">
                         <div className="name-input-box-child" />
-                        <div className="enter-your-name">Enter your name</div>
+                      <input type="text" placeholder="Enter Email" className="name"/>
                       </div>
                     </div>
                     <div className="email-field">
@@ -105,14 +105,13 @@ const Footer = ({ className = "" }) => {
                       <div className="email">Email</div>
                     </div>
                     <div className="email-input-box">
-                      <div className="email-input-box-child" />
-                      <div className="enter-your-email">Enter your email</div>
+                    <input type="text" placeholder="Enter Email" className="name"/>
                     </div>
                   </div>
                 </div>
                 <div className="message-box">
-                  <div className="message-box-child" />
-                  <div className="write-message">Write message</div>
+                
+                <input type="textArea" placeholder="Enter Messege" className="name1"/>
                 </div>
               </div>
               <div className="submission">
@@ -137,7 +136,7 @@ const Footer = ({ className = "" }) => {
                 </div>
                 <div className="rectangle-parent13">
                   <div className="frame-child18" />
-                  <div className="send-message">Send message</div>
+                 <a href="#" className="sign-up-as31"> <div className="send-message">Send message</div></a>
                 </div>
               </div>
             </div>

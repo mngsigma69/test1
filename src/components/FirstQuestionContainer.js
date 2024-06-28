@@ -6,17 +6,24 @@ const FirstQuestionContainer = ({ className = "" }) => {
     <div className={`first-question-container ${className}`}>
       <div className="first-question">
         <div className="first-question-content">
-          <div className="what-is-djfy">What is DJFY?</div>
+          <div className="what-is-djfy">    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne">
+        What is DJFY?
+      </a>
+      </div>
+      <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div></div>
           <div className="first-question-dropdown-icon-c">
-            <img className="eparrow-up-icon2" alt="" src="/eparrowup.svg" />
+            <img className="eparrow-up-icon2" alt="" src="/eparrowup1@2x.png" />
           </div>
         </div>
         <div className="djfy-is-a">
-          DJFY is a web app that revolutionizes the music experience by enabling
-          DJs, live musicians/bands, and street performers/musicians to accept
-          song requests and interact with their audience in real-time. It
-          provides a platform for artists to create a new stream of income while
-          enhancing audience engagement during performances.
+       
         </div>
       </div>
       <img
@@ -26,7 +33,18 @@ const FirstQuestionContainer = ({ className = "" }) => {
       />
       <div className="second-question-container">
         <div className="second-question">
-          <div className="how-does-djfy">How does DJFY work?</div>
+          <div className="how-does-djfy"> <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        How does DJFY work?
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div></div>
         </div>
         <img className="eparrow-up-icon3" alt="" src="/eparrowup1@2x.png" />
       </div>
@@ -35,7 +53,18 @@ const FirstQuestionContainer = ({ className = "" }) => {
           <img className="third-question-child" alt="" src="/line-18.svg" />
           <div className="third-question-content">
             <div className="free-to-use-question">
-              <div className="can-i-use">{`Can I use DJFY for free? `}</div>
+              <div className="can-i-use"> <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+        Can I use DJFY for free?
+      </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div></div>
             </div>
             <img className="eparrow-up-icon4" alt="" src="/eparrowup1@2x.png" />
           </div>
@@ -48,7 +77,18 @@ const FirstQuestionContainer = ({ className = "" }) => {
       </div>
       <div className="fourth-question-container">
         <div className="fourth-question">
-          <div className="how-do-i">How do I earn money with DJFY?</div>
+          <div className="how-do-i"><div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+        How do I earn money with DJFY? 
+      </a>
+      </div>
+      <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div></div>
           <div className="fourth-question-dropdown-icon">
             <img className="eparrow-up-icon5" alt="" src="/eparrowup1@2x.png" />
           </div>
@@ -61,7 +101,18 @@ const FirstQuestionContainer = ({ className = "" }) => {
         <div className="fifth-question-container">
           <div className="fifth-question">
             <div className="can-i-reject">
-              Can I reject song requests on DJFY?
+            <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+        Can I reject song requests on DJFY?
+      </a>
+      </div>
+      <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
             </div>
           </div>
           <img className="eparrow-up-icon6" alt="" src="/eparrowup1@2x.png" />

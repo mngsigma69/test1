@@ -37,14 +37,14 @@ const WebAppsCallToAction = ({ className = "" }) => {
               </div>
             </div>
             <div className="gallery-images">
-              <div className="rectangle-parent4">
+              <a href="a.html" className="sign-up-as" ><div className="rectangle-parent4">
                 <div className="frame-child5" />
                 <div className="sign-up-as">Sign Up as User</div>
-              </div>
-              <div className="rectangle-parent5">
+              </div></a>
+              <a href="a.html" className="sign-up-as" ><div className="rectangle-parent5">
                 <div className="frame-child6" />
                 <div className="sign-up-as1">Sign Up as DJ</div>
-              </div>
+              </div></a> 
             </div>
           </div>
         </div>

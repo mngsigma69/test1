@@ -13,14 +13,18 @@ const GroupComponent = ({ className = "" }) => {
       <div className="rectangle-parent6">
         <div className="frame-child11" />
         <div className="the-ultimate-dj"  >The Ultimate DJ Tool</div>
-        <div className="rectangle-parent7">
+        <div className="rectangle-parent7"><input type="text" placeholder="Search Venues & DJs" className="text" />
           <div className="frame-child12" />
-          <img
+          {/* <img
             className="iconamoonsearch1"
             alt=""
             src="/iconamoonsearch1.svg"
           />
-          <div className="search-venues">{`Search Venues & DJs`}</div>
+          <div className="search-venues">{`Search Venues & DJs`} 
+
+     
+        
+     </div> */}
         </div>
       </div>
     </div>

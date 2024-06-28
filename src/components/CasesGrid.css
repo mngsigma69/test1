@@ -45,6 +45,7 @@
   display: inline-block;
   min-width: 68px;
   z-index: 1;
+  color: white;
 }
 .rectangle-container {
   border-radius: var(--br-8xs);

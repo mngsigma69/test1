@@ -3,7 +3,15 @@ font-family: "Divine Razier";
 src:url('Divine Razier.otf');
 
 }
-
+.text
+{
+  width: 100%;
+  height: 100%;
+  font-size: larger;
+ color: white;
+  border-radius: 10px;
+  background-color:#09173c;
+}
 
 .dario-dd-k8tnrcwc-unsplash-cop-icon2 {
   position: absolute;

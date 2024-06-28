@@ -12,6 +12,31 @@
   font-weight: 600;
   white-space: pre-wrap;
   z-index: 3;
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+ 
+
+}
+.about-us-use1 {
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+ 
+
+}
+.about-us-use2 {
+
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+ 
+
+}
+.about-us-use3 {
+
+  color: rgb(205, 205, 205);
+  text-decoration: none;
+ 
+
 }
 .about-us-use,
 .header-navigation,

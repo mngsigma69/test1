@@ -10,11 +10,11 @@ const FrameComponent1 = ({ className = "" }) => {
             <div className="testimonials-navigation-dots-inner">
               <div className="frame-parent9">
                 <div className="mask-group-wrapper">
-                  <img
+                 <a href="#"><img
                     className="mask-group-icon13"
                     alt=""
                     src="/mask-group14@2x.png"
-                  />
+                  /></a> 
                 </div>
                 <div className="gallery-parent">
                   <div className="gallery1">Gallery</div>
@@ -48,64 +48,64 @@ const FrameComponent1 = ({ className = "" }) => {
         </div>
         <div className="testimonials-image">
           <div className="testimonial-carousel">
-            <img
+           <a href="#"> <img
               className="mask-group-icon14"
               alt=""
               src="/mask-group15@2x.png"
-            />
-            <img
+            /></a>
+            <a href="#"><img
               className="mask-group-icon15"
               alt=""
               src="/mask-group16@2x.png"
-            />
+            /></a> 
           </div>
           <div className="testimonial-carousel1">
-            <img
+          <a href="#"><img
               className="mask-group-icon16"
               alt=""
               src="/mask-group17@2x.png"
-            />
-            <img
+            /></a> 
+              <a href="#"><img
               className="mask-group-icon17"
               alt=""
               src="/mask-group18@2x.png"
-            />
+            /></a>
           </div>
           <div className="testimonial-carousel2">
-            <img
+          <a href="#"><img
               className="mask-group-icon18"
               alt=""
               src="/mask-group19@2x.png"
-            />
-            <img
+            /></a>
+              <a href="#"><img
               className="mask-group-icon19"
               alt=""
               src="/mask-group20@2x.png"
-            />
+            /></a>
           </div>
           <div className="testimonial-carousel3">
-            <img
+          <a href="#"><img
               className="mask-group-icon20"
               alt=""
               src="/mask-group21@2x.png"
-            />
-            <img
+            /></a>
+              <a href="#"><img
               className="mask-group-icon21"
               alt=""
               src="/mask-group22@2x.png"
-            />
+            /></a>
           </div>
           <div className="testimonial-carousel4">
-            <img
+          <a href="#"><img
               className="mask-group-icon22"
               alt=""
               src="/mask-group23@2x.png"
-            />
-            <img
+            /></a>
+             <a href="#"> <img
               className="mask-group-icon23"
               alt=""
               src="/mask-group24@2x.png"
-            />
+            /></a>
           </div>
         </div>
       </div>

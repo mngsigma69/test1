@@ -28,6 +28,8 @@
   display: inline-block;
   min-width: 76px;
   z-index: 5;
+  text-decoration: none;
+  color: yellow;
 }
 .dj-sling {
   margin: 0;

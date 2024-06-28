@@ -7,19 +7,19 @@ const FrameComponent2 = ({ className = "" }) => {
     <div className={`web-apps-wrapper ${className}`}>
       <div className="web-apps">
         <img className="union-icon" alt="" src="/union.svg" />
-        <img className="web-apps-child" alt="" src="/group-2@2x.png" />
+      <img className="web-apps-child" alt="" src="/group-2@2x.png" />
         <div className="web-apps-content1">
-          <img className="mask-group-icon4" alt="" src="/mask-group5@2x.png" />
-          <div className="web-apps-info">
+        <a href="a.html"> <img className="mask-group-icon4" alt="" src="/mask-group5@2x.png" /></a>
+          <div className="web-apps-info"> 
             <div className="web-apps-info-child" />
-            <div className="jun-231">21 Jun 23</div>
+            <div className="jun-231"><a href="a.html"  className="jun-231">21 Jun 23</a></div>
             <div className="dj-ocean-container">
-              <p className="dj-ocean">{`DJ Ocean & Thunder`}</p>
+              <p className="dj-ocean"><a href="a.html"  className="dj-ocean">{`DJ Ocean & Thunder`}</a></p>
               <p className="indira-nagar-bengaluru">
-                Indira Nagar Bengaluru, India
+              <a href="a.html"  className="indira-nagar-bengaluru">Indira Nagar Bengaluru, India</a>  
               </p>
             </div>
-          </div>
+             </div>
         </div>
         <WebAppsContent
           maskGroup="/mask-group6@2x.png"

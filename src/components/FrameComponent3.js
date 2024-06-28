@@ -52,8 +52,9 @@ const FrameComponent3 = ({ className = "" }) => {
               </div>
               <div className="musicians-register-button">
                 <div className="rectangle-parent1">
-                  <div className="frame-child2" />
-                  <div className="register1">Register</div>
+                <a href="a.html"><div className="rectangle-div" />
+              <div className="register">Register</div>
+            </a>
                 </div>
               </div>
             </div>
@@ -87,8 +88,9 @@ const FrameComponent3 = ({ className = "" }) => {
                     everyone gets their moment in the spotlight.
                   </div>
                   <div className="rectangle-parent2">
-                    <div className="frame-child3" />
-                    <div className="register2">Register</div>
+                  <a href="a.html"><div className="rectangle-div" />
+              <div className="register">Register</div>
+            </a>
                   </div>
                 </div>
               </div>
